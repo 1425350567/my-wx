@@ -1,0 +1,67 @@
+<!--pages/one/one.wxml-->
+<view class='base'> 
+<view class='content'>
+ <view class='cone'>
+  <view  class="showview">
+  <image  class="cimg" src='{{imagePath}}'></image>
+  </view>
+  <button class='btnone' bindtap='upimage'> 点击上传头像 </button>
+</view>
+</view>
+<view class='top'>
+  <view class='topone'>
+    <view class='cell1'>
+      <view class="tp2"><image class='tpimg2'></image></view>
+      <input bindinput='nameinput' bindblur='nameblur' class='one' placeholder="请设置用户姓名"> </input>
+      
+    </view>
+      <view class="tp"><image class='tpimg' src='{{Checkimg}}'></image></view>
+  
+      
+
+      
+    
+  </view>
+  <view class='topone'>
+    <view class='cell1'>
+      <view class="tp2"><image class='tpimg2'></image></view>
+      <input bindinput='pwdinput' class='one' placeholder="请设置用户密码"> </input>
+      
+    </view>
+      <view class="tp"><image class='tpimg' ></image></view>
+  </view>
+  <view class='topone'>
+    <view class='cell1'>
+      <view class="tp2"><image class='tpimg2'></image></view>
+      <input bindinput='idinput' class='one' placeholder="填写用户学号"> </input>
+      
+    </view>
+      <view class="tp"><image class='tpimg' ></image></view>
+  </view>
+
+  <view class='topone'>
+    <view class='cell1'>
+      <view class="tp2"><image class='tpimg2'></image></view>
+      <input bindinput='addressinput'  class='one' placeholder="填写用户地址"> </input>
+      
+    </view>
+      <view class="tp"><image class='tpimg' ></image></view>
+  </view>
+
+  <view class='topone'>
+    <view class='cell1'>
+      <view class="tp2"><image class='tpimg2'></image></view>
+      <input bindinput='emailinput'class='one' placeholder="填写用户邮箱"> </input>
+      
+    </view>
+      <view class="tp"><image class='tpimg' ></image></view>
+  </view>
+  
+</view>
+  
+
+
+   <button class='btntwo' bindtap='zhuceclick'>点击注册</button>
+
+   
+</view>

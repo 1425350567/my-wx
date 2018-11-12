@@ -1,0 +1,44 @@
+/* pages/mail/mail.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+  background-color: khaki;
+}
+.one{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  
+}
+.inputOne{
+  width: 60%;
+  height: 10%;
+  border: 5rpx black solid;
+  display: flex;
+  border-radius: 10rpx; 
+  margin: 30rpx;
+  background-color: white;
+}
+.two{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  
+}
+.inputTwo{
+  width: 90%;
+  height: 90%;
+  border: 5rpx black solid;
+  background-color: white;
+  font-size: 50rpx;
+  }
+  .btn{
+    width: 40%;
+    background-color: palegreen;
+    
+    
+
+    
+  }

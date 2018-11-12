@@ -1,0 +1,14 @@
+<!--pages/music/music.wxml-->
+<view class='box'>
+ 
+  <block wx:for="{{musicpage}}">
+  <view class='content' bindtap='musicclick' data-mpath="{{item.path}}" data-mimg="{{item.mimage}}">
+   <view class='one'><image class='tp' src='{{item.mimage}}'></image></view>
+   <view class='two'>{{item.mtitle}}</view>
+   <view class='three'>{{item.auth}}</view>
+  </view>
+
+  </block>
+ 
+</view>
+

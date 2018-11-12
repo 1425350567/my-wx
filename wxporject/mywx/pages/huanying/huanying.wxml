@@ -1,0 +1,7 @@
+<!--pages/huanying/huanying.wxml-->
+<view class='base'>
+
+
+<image class='tp' src='../images/huanying.jpg'></image>
+
+</view>

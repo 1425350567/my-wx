@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/tongxun/tongxun",
+    "pages/one/one",
+    "pages/zhuce/zhuce",
+    "pages/gongneng/gongneng",
+    "pages/huanying/huanying",
+    
+    "pages/denglu/denglu",
+   
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mail/mail",
+    "pages/geren/geren"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "菜单",
+        "pagePath": "pages/gongneng/gongneng",
+        "iconPath": "pages/images/candai1.png",
+        "selectedIconPath": "pages/images/caidan.png"
+      },
+      {
+        "text": "人工智能",
+        "pagePath": "pages/tongxun/tongxun",
+        "iconPath": "pages/images/tongxun1.png",
+        "selectedIconPath": "pages/images/tongxun.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/geren/geren",
+        "iconPath": "pages/images/genren1.png",
+        "selectedIconPath": "pages/images/genren.png"
+      }
+     
+      
+      
+    ],
+    "color": "#ccc",
+    "selectedColor": "black"
+  }
+}

@@ -1,0 +1,17 @@
+/* pages/huanying/huanying.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+  background-color: seagreen;
+
+}
+.tp{
+  width: 100%;
+  height: 100%;
+}
+.wenzi{
+  width: 60%;
+  height: 20%;
+  background-color: skyblue;
+  
+}

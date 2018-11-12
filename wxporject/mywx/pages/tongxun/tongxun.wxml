@@ -1,0 +1,18 @@
+<!--pages/tongxun/tongxun.wxml-->
+<view class='base'>
+<block wx:for="{{empinfo}}">
+   <view class='content'>
+     <view class="cell">
+     <image class='cimg' src='{{item.face}}'></image>
+    
+     </view>
+     <view class='wenzi'>{{item.name}}</view>
+     <view class='btnn'>
+     <button class='btn' bindtap='callphone' data-number='{{item.phone}}'>拨打电话</button>
+     <button class='btn' bindtap='mailclick' data-email='{{item.mail}}'>发送邮件</button>
+     <button class='btn'>发送短信</button>
+     </view>
+   </view>
+   <view class="contentline"></view>
+</block>
+</view>

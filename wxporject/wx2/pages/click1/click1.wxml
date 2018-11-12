@@ -1,0 +1,9 @@
+<!--pages/click1/click1.wxml-->
+<text>
+ <block>{{name}}</block>
+
+</text>
+<text>{{pad}}</text>
+<block>
+<button wx:for="{{nub}}">{{[item]}}</button>
+</block>

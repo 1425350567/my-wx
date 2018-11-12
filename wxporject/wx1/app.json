@@ -1,0 +1,39 @@
+{
+  "pages": ["pages/one/one",
+    "pages/index/index",
+    "pages/logs/logs",
+    
+    "pages/two/two",
+    "pages/three/three"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微生活",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/one/one",
+        "iconPath": "pages/images/zhuye.png",
+        "selectedIconPath": "pages/images/zhuye1.png"
+      },
+      {
+        "text": "通讯录",
+        "pagePath": "pages/two/two",
+        "iconPath": "pages/images/tongxun.png",
+        "selectedIconPath": "pages/images/tongxun1.png"
+      },
+      {
+        "text": "智能应用",
+        "pagePath": "pages/three/three",
+        "iconPath": "pages/images/zhineng.png",
+        "selectedIconPath": "pages/images/zhineng1.png"
+      }
+    ]
+  }
+}

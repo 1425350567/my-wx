@@ -1,0 +1,25 @@
+<!--pages/one/one.wxml-->
+<view class='box'>
+  <view class='top'>
+   <swiper class='ee' indicator-dots='true' indicator-active-color='blue' interval='5000'     autoplay='true'> 
+    <swiper-item><image class='tp'                          src='../images/aaa.jpg'></image></swiper-item>
+    <swiper-item><image class='tp' src='../images/bbb.jpg'></image></swiper-item>
+    <swiper-item><image class='tp' src='../images/ccc.jpg'></image></swiper-item>
+    
+   </swiper>
+  </view>
+  <view class='content'>
+    <view class='aa'> <image src='../images/daohang.png' class='small' ></image> <view class='wenzi'> 导航</view></view>
+    <view class='aa'> <image src='../images/gouwu.png' class='small' ></image><view class='wenzi'> 购物</view></view>
+    <view class='aa'> <image src='../images/lvyou.png' class='small' ></image><view class='wenzi'>旅游</view></view>
+    <view class='aa'> <image src='../images/tianqi.png' class='small' ></image><view class='wenzi'> 天气</view></view>
+    <view class='aa'> <image src='../images/tongxun.png' class='small' ></image><view class='wenzi'> 通讯</view></view>
+    <view class='aa'> <image src='../images/canyin.png' class='small' ></image><view class='wenzi'> 饮食</view></view>
+    <view class='aa'> <image src='../images/youxi.png' class='small' ></image><view class='wenzi'> 游戏</view></view>
+    <view class='aa'> <image src='../images/yundong.png' class='small' ></image><view class='wenzi'> 运动</view></view>
+    <view class='aa'> <image src='../images/zhusu.png' class='small' ></image><view class='wenzi'> 住宿</view></view>
+
+
+
+  </view>
+</view>

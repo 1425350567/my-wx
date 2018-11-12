@@ -1,0 +1,11 @@
+<!--pages/two/two.wxml-->
+<view class='box'>
+ <view class='content'>
+
+ <view class='aa'> <view class='aaa'>头像</view><view class='bbb'> 姓名</view><view class='ccc'> 电话号码</view></view>
+ <view class='fenge'></view>
+  <view class='aa'><view class='aaa'>头像</view><view class='bbb'> 姓名</view> <view class='ccc'>电话号码</view></view>
+  <view class='fenge'></view>
+ 
+ </view>
+</view>

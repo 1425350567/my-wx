@@ -1,0 +1,33 @@
+<!--pages/user/user.wxml-->
+<view class='base'>
+  <view class='top'>
+    <view class='topone'><input class='one' bindinput="nameInput" placeholder='请输入用户姓名'></input></view>
+    <button bindtap='bntclick'>登录</button>
+  </view>
+  <block wx:if="{{flag}}">
+  <view class='content'>
+    <view class='contentOne'><image class="cimg" src='{{responsePath.eface}}'></image></view>
+    <view class='contentTwo'>
+    <view class="wenzi">姓名：{{username}}</view>
+    <text>性别：{{responsePath.esex}}</text>
+    <text>地址：{{responsePath.eaddress}}</text>
+    <text>工资：{{responsePath.emoney}}</text>
+    
+    </view>
+    
+   
+
+
+  </view>
+  <view class='contentFive'><button bindtap='callphone' data-phone="{{responsePath.ephone}}">电话：{{responsePath.ephone}}</button> </view>
+  <view class='contentThree'>
+  <audio  controls='controls' poster='{{responsePath.eface}}' src='{   {responsePath.eaudio}}' loop="loop" autoplay="autoplay"></audio>
+  </view>
+  <view class='contentFour'>
+  <video controls='controls' src='{{responsePath.evideo}}'></video>
+  
+
+
+  </view>
+  </block>
+</view>

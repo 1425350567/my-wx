@@ -1,0 +1,17 @@
+/* pages/two/two.wxss */
+.content{
+ display: flex;
+
+ flex-direction: column;
+ }
+ .aa{
+   display: flex;
+   justify-content: space-between;
+   margin: 50rpx;
+   flex-direction: row;
+ }
+ .fenge{
+   width: 100%;
+   height: 20%;
+   background-color: black;
+    }

@@ -1,0 +1,28 @@
+/* pages/music/music.wxss */
+.box{
+  width: 100%;
+  height: 100vh;
+  background-color: palegoldenrod;
+}
+.content{
+  width: 100%;
+  height: 20%;
+  border: 2rpx solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.one{
+  width:170rpx;
+  height: 170rpx;
+
+  margin-left: 10rpx;
+}
+.three{
+  margin-right: 10rpx; 
+}
+.tp{
+  width: 100%;
+  height: 100%;
+}

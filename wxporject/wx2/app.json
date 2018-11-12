@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/click/click",
+    "pages/music/music",
+    "pages/music1/music1",
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/click1/click1",
+    "pages/click2/click2",
+    "pages/click3/click3"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

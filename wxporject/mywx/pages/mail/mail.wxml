@@ -1,0 +1,12 @@
+<!--pages/mail/mail.wxml-->
+<view class='base'>
+  
+    <view class='one'>
+    <input class='inputOne' bindinput='titleinput'  placeholder='请输入邮件标题'> </input>
+    </view>
+    <view class='two'>
+    <textarea class='inputTwo'  bindinput='contentinput' placeholder='请输入邮件内容'> </textarea>
+    </view>
+    <button bindtap='sendclick' class='btn'>发  送</button>
+ 
+</view>

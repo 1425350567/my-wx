@@ -1,0 +1,4 @@
+<!--pages/music1/music1.wxml-->
+<view class='box'>
+ <audio class='play' autoplay="autoplay" loop="loop"        controls='controls' poster='{{playimage}}'  src='{{playmusic}}'></audio>
+</view>

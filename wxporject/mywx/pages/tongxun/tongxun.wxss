@@ -1,0 +1,54 @@
+/* pages/tongxun/tongxun.wxss */
+.base{
+  width: 100%;
+  height: 100vh;
+  background-color: paleturquoise;
+
+}
+.content{
+  width: 100%;
+  height: 15%;
+  background-color:paleturquoise;
+  display: flex;
+  align-items: center;
+  
+ 
+  
+
+}
+.contentline{
+  width: 100%;
+  height: 8rpx;
+  background-color: black;
+ 
+}
+.cell{
+  width: 150rpx;
+  height: 150rpx;
+  border: 4rpx solid salmon;
+  display: flex;
+
+
+}
+.cimg{
+  width: 100%;
+  height: 100%;
+}
+.btn{
+  font-size: 20rpx;
+  background-color: yellowgreen;
+ margin: 7rpx;
+}
+.btnn{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10rpx;
+  
+}
+.wenzi{
+  width: 130rpx;
+  height: 40rpx;
+  display: flex;
+  justify-content: center;
+  
+}

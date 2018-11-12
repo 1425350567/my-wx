@@ -1,0 +1,26 @@
+<!--pages/gongneng/gongneng.wxml-->
+<view class='box'>
+<swiper class='swiper' indicator-dots='true' autoplay='true' interval='5000' duration='5000' indicator-active-color='red'>
+<block wx:for="{{topimages}}">
+  <swiper-item>
+   <image class='timg' src='{{item}}'></image>
+  </swiper-item>
+</block>
+</swiper>
+<!--轮播图 end-->
+<!--六宫格 start-->
+  <view class='content'>
+  
+  
+  <block wx:for="{{contentimages}}">
+    <view class='cell' bindtap='cellclick'  data-aa="{{item.title}}" >
+     <view class='cell1' ><image class='aa' src='{{item.images}}'></image></view>
+     <view class='cell2'>{{item.title}}</view>
+   
+    
+  </view>
+  </block>
+  
+  </view>
+  
+  </view>

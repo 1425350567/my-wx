@@ -1,0 +1,12 @@
+<!--pages/click/click.wxml-->
+<view class='box'>
+  <view class='top' data-xuanze='one' bindtap='viewclick'>
+    <view class='aa'>跳转到页面1</view>
+  </view>
+  <view class='content' data-xuanze='two' bindtap='viewclick'>
+    <view class='aa'>跳转到页面2</view>
+  </view>
+  <view class='buttom' data-xuanze='three' bindtap='viewclick'>
+    <view class='aa'>跳转到页面3</view>
+  </view>
+</view>

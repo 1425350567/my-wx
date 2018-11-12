@@ -1,0 +1,9 @@
+/* pages/music1/music1.wxss */
+.box{
+  width: 100%;
+  height: 100vh;
+  background-color: burlywood;
+}
+.play{
+  width: 100%;
+}

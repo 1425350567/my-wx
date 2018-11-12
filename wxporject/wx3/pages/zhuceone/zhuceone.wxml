@@ -1,0 +1,8 @@
+<!--pages/zhuceone/zhuceone.wxml-->
+<view class='base'>
+<view class='top'>
+<view class='cell1' ><input bindinput='nameinput' bindblur='nameblur' class='one' placeholder='请设置用户姓名'></input></view>
+
+<view class='cell2' ><input class='two' placeholder='请设置密码'></input></view>
+</view>
+</view>
